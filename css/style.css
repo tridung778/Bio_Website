@@ -41,6 +41,16 @@ html {
   border-radius: 10px;
 }
 
+.play-video .video {
+  position: relative;
+}
+
+.play-video .button {
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 20px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -500,4 +510,34 @@ html {
 .Btn-zalo:hover .svgIcon {
   opacity: 0;
   transition-duration: 0.3s;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  color: #151212;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: linear-gradient(
+    30deg,
+    rgb(254, 255, 255) 20%,
+    rgb(255, 255, 255) 80%
+  );
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: rgba(255, 255, 255, 0.698) 0px 0px 0px 0px;
+  animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running
+    pulse;
+  align-items: center;
+  border: 0;
+}
+
+.button:is(:hover, :focus) {
+  transform: scale(1.2);
+}
+
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
+  }
 }
