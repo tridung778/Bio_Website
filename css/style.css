@@ -571,7 +571,7 @@ html {
   flex-direction: column;
 }
 
-a:nth-child(1) .comic-button {
+.comic-button:nth-child(1) {
   display: inline-block;
   font-size: 24px;
   font-weight: bold;
@@ -588,20 +588,20 @@ a:nth-child(1) .comic-button {
   margin-top: 30px;
 }
 
-a:nth-child(1) .comic-button:hover {
+.comic-button:nth-child(1):hover {
   background-color: #fff;
   color: #d82d8b;
   border: 2px solid #d82d8b;
   box-shadow: 5px 5px 0px #d82d8b;
 }
 
-a:nth-child(1) .comic-button:active {
+.comic-button:nth-child(1):active {
   background-color: #fcf414;
   box-shadow: none;
   transform: translateY(4px);
 }
 
-a:nth-child(2) .comic-button {
+.comic-button:nth-child(2) {
   display: inline-block;
   font-size: 24px;
   font-weight: bold;
@@ -618,20 +618,20 @@ a:nth-child(2) .comic-button {
   margin-top: 30px;
 }
 
-a:nth-child(2) .comic-button:hover {
+.comic-button:nth-child(2):hover {
   background-color: #fff;
   color: #003087;
   border: 2px solid #003087;
   box-shadow: 5px 5px 0px #003087;
 }
 
-a:nth-child(2) .comic-button:active {
+.comic-button:nth-child(2):active {
   background-color: #fcf414;
   box-shadow: none;
   transform: translateY(4px);
 }
 
-a:nth-child(3) .comic-button {
+.comic-button:nth-child(3) {
   display: inline-block;
   font-size: 24px;
   font-weight: bold;
@@ -648,14 +648,14 @@ a:nth-child(3) .comic-button {
   margin-top: 30px;
 }
 
-a:nth-child(3) .comic-button:hover {
+.comic-button:nth-child(3):hover {
   background-color: #fff;
   color: #ffde08;
   border: 2px solid #ffde08;
   box-shadow: 5px 5px 0px #ffde08;
 }
 
-a:nth-child(3) .comic-button:active {
+.comic-button:nth-child(3):active {
   background-color: #fcf414;
   box-shadow: none;
   transform: translateY(4px);

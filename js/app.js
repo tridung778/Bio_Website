@@ -43,3 +43,7 @@ function closePopup() {
   form_popup.classList.remove("form-popup-open");
   content.style.filter = "none";
 }
+
+function openLink(link) {
+  window.open(link, "_blank");
+}
