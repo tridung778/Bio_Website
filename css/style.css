@@ -545,6 +545,7 @@ html {
 .close-button {
   margin-top: -40px;
   margin-left: 250px;
+  cursor: pointer;
 }
 
 .form-popup {
